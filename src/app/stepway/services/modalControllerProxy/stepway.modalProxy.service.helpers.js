@@ -11,7 +11,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [] ,
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -27,7 +27,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [] ,
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -43,7 +43,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [] ,
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -59,7 +59,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [] ,
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -86,7 +86,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : 'password',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [] ,
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -113,7 +113,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype               : 'email',
         formlyLabel                 : '',
         formlyRequired               : false,
-        formlyDesciption             : '',
+        formlyDescription             : '',
         formlyOptions               : [],
         formlyExpressionProperties   : {},
         formlyValidators             : {
@@ -150,7 +150,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype               : 'ipadress',
         formlyLabel                 : '',
         formlyRequired               : false,
-        formlyDesciption             : '',
+        formlyDescription             : '',
         formlyOptions               : [],
         formlyExpressionProperties   : {},
         formlyValidators             : {
@@ -184,7 +184,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         datepickerOptions  : 'dd-MMMM-yyyy',
         formlyExpressionProperties: {},
@@ -212,7 +212,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -239,7 +239,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators           : {},
@@ -267,7 +267,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '' ,
+        formlyDescription  : '' ,
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -294,7 +294,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -322,7 +322,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -350,7 +350,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         formlySubtype      : '',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyOptions      : [],
         formlyExpressionProperties: {},
         formlyValidators  : {},
@@ -373,7 +373,7 @@ const resetNyaSelect = (nyaSelectObj) => {
         selectedControl    : 'none',
         formlyLabel        : '',
         formlyRequired    : false,
-        formlyDesciption  : '',
+        formlyDescription  : '',
         formlyPlaceholder  : '',
         formlyOptions     : [],
         //expressions/validation fields
@@ -396,7 +396,7 @@ const getResetConfig = () => {
       formlyLabel        : '',
       formlyRequired    : false,
       formlyPlaceholder  : '',
-      formlyDesciption  : '',
+      formlyDescription  : '',
       formlyOptions      : []
   });
   return emptyConfig;
@@ -414,7 +414,7 @@ const returnControlFromAddCtrlModalModel = (CtrlModalModel) =>{
     formlySubtype: 'none',
     formlyLabel: '',
     formlyRequired : false,
-    formlyDesciption: '',
+    formlyDescription: '',
     formlyPlaceholder: '',
     formlyOptions: [],
     //validation fields
@@ -431,7 +431,7 @@ const returnControlFromAddCtrlModalModel = (CtrlModalModel) =>{
       modelToReturn.formlySubtype       = CtrlModalModel.controls[i].formlySubtype;
       modelToReturn.formlyLabel         = CtrlModalModel.controls[i].formlyLabel;
       modelToReturn.formlyRequired       = CtrlModalModel.controls[i].formlyRequired;
-      modelToReturn.formlyDesciption     = CtrlModalModel.controls[i].formlyDesciption;
+      modelToReturn.formlyDescription     = CtrlModalModel.controls[i].formlyDescription;
       modelToReturn.formlyPlaceholder   = CtrlModalModel.controls[i].formlyPlaceholder;
       modelToReturn.formlyOptions       = CtrlModalModel.controls[i].formlyOptions;
 
